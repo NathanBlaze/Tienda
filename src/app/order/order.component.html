@@ -1,0 +1,11 @@
+<div class="caja">
+    <div class="d-flex justify-content-around">
+        <ul style="width: 48%;">
+            <app-detail-cart [cart]="cart"></app-detail-cart>
+        </ul>
+        <div style="width: 48%;">
+            <app-shipping (sendShipping)="receiveOrder($event)"></app-shipping>
+        </div>
+    </div>
+    <button class="btn btn-danger float-end mt-3" (click)="emitCancelClicked()">Cancelar</button>
+</div>

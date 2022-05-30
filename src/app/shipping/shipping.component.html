@@ -1,0 +1,20 @@
+<div class="caja">
+    <div class="form-row">
+        <label class="form-label"><h4><b>Datos de envío</b></h4></label>
+        <div class="mb-3">
+            <label class="form-label">Nombre</label>
+            <input class="form-control" [(ngModel)]="shipping.name">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Dirección</label>
+            <input class="form-control" [(ngModel)]="shipping.address">
+        </div>        
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" [(ngModel)]="shipping.email">
+        </div>
+        <div>
+            <button class="btn btn-primary float-end" (click)="confirmOrder()">Confirmar</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<!-- <p>El total de items de la tienda es {{myItems | total:'stock'}}</p>
+<p>El precio total acumulado es {{myItems | total:'price'}}</p> -->
+
+<div>
+  <div class="caja">
+    <ul class="list-group list-group-horizontal d-flex justify-content-between align-items-center mt-3">
+      <li class="bg-base list-group list-group-horizontal" *ngFor="let item of myItems"
+        [class.selected-item]="item.selected" [class.bg-outStock]="item.stock === 0">
+        <app-item [item]="item" (deleteClick)="deleteItem($event)" (descriptionChanged)="updateItem($event)"></app-item>
+      </li>
+    </ul>
+  </div>
+</div>

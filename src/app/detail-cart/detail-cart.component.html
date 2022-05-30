@@ -1,0 +1,14 @@
+<div class="caja">
+    <label class="form-label">
+        <h4><b>Carrito</b></h4>
+    </label>
+    <div class="column d-flex justify-content-between align-items-center mt-2" *ngFor="let item of cart.items">
+        <div>
+            {{item.name}}:
+            {{item.price}} x
+            {{item.quantity}} =
+            {{item.quantity * item.price}}
+        </div>
+        <button class="btn btn-danger float-end" (click)="deleteItem(item)">Borrar</button>
+    </div>
+</div>

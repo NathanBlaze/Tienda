@@ -1,0 +1,55 @@
+{
+  "item-list": [
+    {
+      "id": 1,
+      "name": "Carta de Twisted Fate",
+      "description": "Este picarón te robará hasta la ropa interior como te descuides.",
+      "stock": 0,
+      "price": 20,
+      "image": "../assets/vidente.png",
+      "selected": false,
+      "quantity": 0,
+      "editDescription": false
+    },
+    {
+      "id": 2,
+      "name": "Carta de Graves",
+      "description": "Un sugar dady de tomo y lomo, no quieras enfrentarte a su trabuco.",
+      "stock": 20,
+      "price": 75.25,
+      "image": "../assets/cazador.png",
+      "selected": false,
+      "quantity": 0,
+      "editDescription": false
+    },
+    {
+      "editDescription": false,
+      "stock": "85",
+      "price": "20",
+      "quantity": 0,
+      "name": "Carta de Annie",
+      "description": "La niña de tus ojos, que te hará arder en el infierno.",
+      "image": "../assets/niña.png",
+      "id": 3
+    },
+    {
+      "editDescription": false,
+      "stock": "150",
+      "price": "50",
+      "quantity": 0,
+      "name": "Carta de Warwick",
+      "description": "Este feroz lobo en0 otra época fue considerado un gran luchador.",
+      "image": "../assets/loboFeroz.png",
+      "id": 4
+    },
+    {
+      "editDescription": false,
+      "stock": "5",
+      "price": "1",
+      "quantity": 0,
+      "name": "Carta de Prueba",
+      "description": "Descripción de prueba",
+      "id": 5
+    }
+  ]
+}
